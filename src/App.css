@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
+body{
+  font-family: 'Cairo', sans-serif;
+}
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.buttonlayout2{
+  padding-left: 10rem;
+}
+.ashraf{
+  max-height: 150px;
+  align-self: center;
+  padding-left: 8.55rem;
+  padding-top: 0.4rem;
+}
+.photo{
+  max-height: 100px;
+  align-self: center;
+  padding-right: 5.75rem;
+}
+.Cards1{
+  padding-left: 4rem;
+  padding-bottom:2.2rem; ;
+}
+.Cards2{
+  padding-left: 0.75rem;
+  
+}
+.hesham{
+  text-align: left;
+  background-color: rgba(247,247,247,255);
+  border-radius: 15px;
+  padding:0 ;
+}
+
+.hesham div.sidebar-top{
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+.hesham > div{
+  padding:1rem 2rem;
+}
+.chartcontainer{
+  padding: 2rem;
+  /* border: 1px solid;
+  border-radius: 15px; */
+  
+}
+.textformat{
+  text-align: center;
+  font-weight:bold;
+  color:#000;
+  padding-top: 1rem;
+}
+.chartcontainer > div{
+  padding: 2rem;
+  padding-top: 2rem;
+}
+.container{
+  padding-left: 1rem;
+}
+.ChartTit{
+  color: black;
+  font-weight: bold;
+  padding-left: 4rem;
+}
+.ChartTit2{
+  color: black;
+  font-weight: bold;
+  padding-left: 22.7rem;
+}
+.ChartTit3{
+  color: black;
+  font-weight: bold;
+  padding-left: 4rem;
+}
+.ChartTit4{
+  color: black;
+  font-weight: bold;
+  padding-left: 25rem;
+}
+th.colorfy {
+  background: lightblue !important;
+  color: white;
+}
+.withborder1{
+  border: 1px solid;
+  border-radius: 20px;
+  border: 1em;
+}
+.chartcontainer > div.withborder {
+  border: 2px solid;
+  border-radius: 20px;
+  border-width: 3px;
+  
+}
+
+.topname{
+  background-color: lightblue;
+  padding: 1rem;
+  border-radius: 15px;
+  padding-left: 5.7rem;
+}
+.topresults{
+  background-color: lightblue;
+  padding: 1rem;
+  border-radius: 15px;
+  font-size: x-large;
+  font-style: bold;
+}
+
+.topname p{
+  padding-left: 22.9rem;
+  margin-bottom: 0;
+  color: black ;
+  font-weight: bold;
+}
+.topname span{
+  color: red;
+  text-transform: uppercase;
+}
+
+.sidebar-nav{
+  list-style: none;
+  padding-left: 0;
+}
+.sidebar-nav li{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.buttonlayout{
+  vertical-align: top;
+  padding-left:0.2rem;
+}
+.sidebar-nav li a:link, .sidebar-nav li a:visited{
+  padding: 0.5rem 1rem; /*top right bottom left*/
+  display: block;
+  color:rgba(0,0,0,0.5);
+}
+.sidebar-nav li:hover a{
+  text-decoration: none;
+  color:#000;
+}
+
+.sidebar-nav li:hover{
+  background-color: rgba(223,224,226,255);
+}
+
+.header-item{
+  background-color:  rgba(247,247,247,255);
+  border: 1rem  ;
+}
+
+.shad-box{
+  box-shadow: 9px 5px 5px 0px rgba(0,0,0,0.14);
+-webkit-box-shadow: 9px 5px 5px 0px rgba(0,0,0,0.14);
+-moz-box-shadow: 9px 5px 5px 0px rgba(0,0,0,0.14);
+
+}
+
+.barchart {
+  padding: 10px;
+}
+
+.linegraph {
+  width: 100%;
+  height: 100%;
+}
+
+.pie {
+  width: 100%;
+  height: 100%;
+}
+
+/*
+#app <- id
+.element <- className
+p <- tag
+*/
